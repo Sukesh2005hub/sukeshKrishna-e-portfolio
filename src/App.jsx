@@ -1,4 +1,5 @@
 import { internshipsList, leadershipList } from './data/portfolioData';
+import SplashCursor from './components/SplashCursor';
 import Preloader from './components/Preloader';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -15,6 +16,13 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
+      <SplashCursor
+        VELOCITY_DISSIPATION={3}
+        SPLAT_FORCE={3500}
+        COLOR_UPDATE_SPEED={18}
+        COLOR="#ffffff"
+        RAINBOW_MODE={false}
+      />
       <Preloader />
       <Navbar />
       <Hero />
