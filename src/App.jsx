@@ -1,3 +1,4 @@
+import { internshipsList, leadershipList } from './data/portfolioData';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -16,8 +17,8 @@ function App() {
       <About />
       <TechnicalSkills />
       <Projects />
-      <Internships />
-      <Leadership />
+      {internshipsList && internshipsList.length > 0 && <Internships />}
+      {leadershipList && leadershipList.length > 0 && <Leadership />}
       <SoftSkills />
       <Footer />
     </>

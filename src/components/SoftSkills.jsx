@@ -69,3 +69,4 @@ function SoftSkills() {
 }
 
 export default SoftSkills;
+
