@@ -106,7 +106,15 @@ export const technicalSkills = {
   ],
 };
 
-export const leadershipList = [];
+export const leadershipList = [
+  {
+    title: "Technical Symposia & Project Expo",
+    description:
+      "Coordinated technical project exhibitions and collaborated with peers on IoT safety and web application showcases at KVG College of Engineering.",
+    role: "Student Coordinator",
+    badge: "Campus Leadership",
+  },
+];
 
 export const internshipsList = [
   {
