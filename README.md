@@ -2,7 +2,7 @@
 
 A high-performance, single-page developer portfolio showcasing full-stack Java, React, and AI applications.
 
-**Live site:** [https://YOUR-SITE-URL/](https://YOUR-SITE-URL/)
+**Live site:** [https://sukeshkrishna-e-portfolio.vercel.app/](https://sukeshkrishna-e-portfolio.vercel.app/)
 
 Built during the placement training program at [TAP Academy](https://thetapacademy.com/) (full-stack development, AI and augmented reality training).
 
