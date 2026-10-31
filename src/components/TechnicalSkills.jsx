@@ -62,3 +62,4 @@ function TechnicalSkills() {
 }
 
 export default TechnicalSkills;
+
